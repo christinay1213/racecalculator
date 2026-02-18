@@ -20,7 +20,7 @@ type Props = {
   onEditClick?: () => void
 }
 
-export function DashboardHeader({ race, legs, estimates, isUnlocked, onShareClick, onPinClick }: Props) {
+export function DashboardHeader({ race, legs, estimates, isUnlocked, onShareClick, onPinClick, onEditClick }: Props) {
   const [elapsed, setElapsed] = useState(0)
 
   useEffect(() => {
